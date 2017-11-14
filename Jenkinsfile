@@ -1,5 +1,5 @@
 node('golang') {
-	def root = tool name: 'Go 1.8.1', type: 'go'
+	def root = tool name: 'Go 1.9', type: 'go'
 	def version = '0.1.0'
 
 	git([url: 'git@github.com:bocabaton/go-demo.git', branch: 'master', credentialsId: 'git-key'])
